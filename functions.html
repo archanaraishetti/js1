@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    //    <-----------------> operators <---------------->
+        // task1: take one prompt (number) print valid or invalid
+        // function checkNumber(number){
+        //     var number="6300816775";
+        //     return number =="6300816775" ? alert("is valid") :alert("is invalid");
+        // }
+        //  var a=checkNumber();
+        //  alert(a());
+
+
+
+
+        // task2:take one prompt and take two values has to print which is greater than
+        //  function num(a,b){ 
+        //     if(a>b){
+        //         return a;
+        //     }
+        //     else if(a<b){
+        //         return b;
+        //     }
+        //  }
+        //   var s=num(30,40);
+        // console.log(s);
+
+
+
+
+
+        //task3:take one prompt when we add three no.s the sum should be 60 then prints hello world,if it not 60 then prints invalid
+        //   function num(a,b,c){
+        //     return a+b+c==60 ? alert("hello world") :alert("invalid");
+        //   }
+        //   var s=num(20,10,30);
+    
+
+
+
+
+
+        // Task-4 : (Days Print)
+        //    if we give 0 print Sunday,if we give 1 print monday ,  2... 3 ....4....
+      //   function days(a){
+      //    switch(a){
+      //    case 0:
+      //       alert("monday");
+      //       break;
+
+      //   case 1:
+      //       alert("tuesday");
+      //       break;
+      
+      //   case 2:
+      //       alert("wednesday");
+      //       break;
+   
+      //   case 3:
+      //       alert("thursday");
+      //       break;
+
+      // case 4:
+      //       alert("friday");
+      //       break;
+
+      // case 5:
+      //       alert("saturday");
+      //       break;
+
+      // default:
+      //       alert("not a day");
+      //       break;
+
+      //   }
+      // }days(5);
+
+        
+
+
+
+        // task5::value increment ++,value decrement --
+        //  <--------- increment--------------->  
+        // function num(a){
+        //   return ++a;
+        //  }
+        //  var a=6;
+        //  var s=num(a);
+        //  alert(s);
+        // <----------decrement----------------->
+        // function num(a){
+        //     return --a;
+        // }
+        // var a=6;
+        // var b=num(a);
+        // alert(b);
+
+
+
+
+
+
+        // task6:take one prompt(take names) , check the name valid or invalid
+        // function name(b)
+        // {
+        // if(b=="archana"){
+        //     return "valid";
+        // }
+        // else{
+        //     return "invalid";
+        // }
+        // }
+        // var b="archana";
+        // var c=name(b);
+        // alert(c);
+
+
+
+
+    // task7:take value and check string if string correct add value 30 ,if is not correct sub -30
+    //    function add(a,b){
+    //     return a=="archana" ? alert(b+30) :alert(b-30);
+    //    }
+    //    var a="archana";
+    //    var b=30;
+    //    var c=add(a,b);
+          
+
+
+
+
+    // <------------------conditional stmts-------------------->
+    //  task1: when the time is 12 then print good afternoon,& when the time is 16 then print good evening & when the time is 20 then print good night
+    // function num(){
+    // if(a>=0&&a<=12){
+    //     return"good morning";
+    // }
+    // else if(a>=12&&a<=16){
+    //     return"good afternoon";
+    // }
+    // else if(a>=16&&a<=20){
+    //     return"good evening";
+    // }
+    // else if(a>=20&&a<=24){
+    //     return"good night";
+    // }
+    // }
+    // var a=6;
+    // var s=num(a);
+    // alert(s);
+
+
+
+    // task2:greatest among three
+   //  function num(num1,num2,num3){
+   //      if(num1>num2 && num1>num3){
+   //          return"num1 is greater";
+   //      }
+   //      else if(num2>num1  &&  num2>num3){
+   //          return"num2 is greater";
+   //      }
+   //      else{
+   //          return"num1 is greater";
+   //      }
+   //  }
+   //  alert( num(60,50,30));
+
+
+
+
+    // task3:greatest among two
+
+   //  function add(){
+   //      var x,y;
+   //      if(x>y){
+   //          return"x is greater";
+   //      }else{
+   //          return"y is greater";
+   //      }
+   //  } var x=10;
+   //  var y=20;
+   //  var s=add();
+   //  alert(s);
+
+
+
+    // task4:print the week in a day when we give a "0" then result will be sunday
+   //  function add(a){
+   //      if(a==0){
+   //          return alert("sunday");
+   //      }
+   //      else if(a==1){
+   //          return alert("monday");
+   //      }
+   //      else if(a==2){
+   //          return alert("tuesday");
+   //      }else if(a==3){
+   //          return alert("wednesday");
+   //      }
+   //      else if(a==4){
+   //          return alert("thursday");
+   //      }
+   //      else if(a==5){
+   //          return alert("friday");
+   //      }
+   //      else if(a==6){
+   //          return alert("saturday");
+   //      }
+   //      else{
+   //          return alert("not a day");
+   //      }
+   // } add(5);
+
+// another way
+//  function add(a){
+//    switch(a){
+//       case 0:
+//          alert("sunday");
+//          break;
+//       case 1:
+//          alert("monday");
+//          break;
+//       case 2:     
+//          alert("tuesday");
+//          break;
+//       case 3:
+//          alert("wednesday");
+//          break;
+//       case 4:
+//          alert("thursday");
+//          break;
+//       case 5:
+//          alert("friday");
+//          break;
+//       case 6:
+//          alert("saturday");
+//          break;
+//       default:
+//          alert("not a day");
+//          break;
+//    }
+//  }add(1);
+
+   //   another way
+   // function add(a){
+   //    var s=["sun","mon","tues","wed","thurs","fri"]
+   //    if(a>=0 && a<=6){
+   //       return alert(s[a]);
+   //    }
+   //    else{
+   //       return alert("not valid");
+   //    }
+   // }add(0);
+   
+
+
+
+   // task5:print the months in a year when we give "0" then print january
+
+//    function month(a){
+//       var z=["jan","feb","mar","april","may","june","july","sep","oct","nov","dec"]
+//       if(a>=0 && a<=12){
+//           return alert(z[a]);
+//       }
+//       else{
+//          return alert("not valid");
+//       }
+//    }month(5);
+   
+
+
+// another way
+// function month(a){
+// switch(a){
+//     case 0:
+//         alert("january");
+//         break;
+//     case 1:
+//         alert("febraury");
+//         break;
+//     case 2:
+//         alert("march");
+//         break;
+//     case 3:
+//         alert("april");
+//         break;
+//     case 4:
+//         alert("may");
+//         break;
+//     case 5:
+//         alert("june");
+//         break;
+//     case 6:
+//         alert("july");
+//         break;
+//     case 7:
+//         alert("august");
+//         break;
+//     case 8:
+//         alert("september");
+//         break;
+//     case 9:
+//         alert("october");
+//         break;
+//     case 10:
+//         alert("november");
+//         break;
+//     case 11:
+//         alert("december");
+//         break;
+//     default:
+//         alert("not a month");
+//         break;
+// }
+// }month(5);
+
+
+
+// another way
+// function month(a){
+//     if(a==0){
+//         alert("january");
+//     }
+//     else if(a==1){
+//         alert("febraury");
+//     }
+//     else if(a==2){
+//         alert("march");
+//     }
+//     else if(a==3){
+//         alert("april");
+//     }
+//     else if(a==4){
+//         alert("may");
+//     }
+//     else if(a==5){
+//         alert("june");
+//     }
+//     else if(a==6){
+//         alert("july");
+//     }
+//     else if(a==7){
+//         alert("august");
+//     }
+//     else if(a==8){
+//         alert("september");
+//     }
+//     else if(a==9){
+//         alert("october");
+//     }
+//     else if(a==10){
+//         alert("november");
+//     }
+//     else if(a==11){
+//         alert("december");
+//     }
+// }month(11);
+
+
+
+// task6:take two values ,take a operator that should add when we give "+"..............
+// function add(a,b){
+//   let s=a+b;
+//     return s;
+// }alert(add(3,4));
+
+
+
+// task 7:prime number
+// function prime(a){
+//     if(a%2==0){
+//         return alert("composite");
+//     }
+//     else{
+//         return alert("prime");
+//     }
+// }prime(5);
+
+
+
+// <------------------------------loops--------------------------------------------------------------------------------------->
+// task1:alert the numbers from 1-10 using for loop
+// function add(){
+//     for(i=1;i<=10;i+=1){
+//         alert(i);
+// }
+// }add();
+
+
+
+//task1:alert the numbers from 1-10 using while loop
+// function add(){
+//     var a=1; 
+//     while(a<=10){
+//         alert(a++);
+//     }
+// }add();
+
+
+
+// task1:alert the numbers from 1-10 using do while
+// function add(){
+//     a=1;
+//     do{
+//      alert(a++);
+//     }while(a<=10);
+// }add();
+
+
+
+// task2:find the multiples of 3 without using if condition using for loop
+//    function add(){
+//      var a=30;
+//      for(i=3;i<=a;i+=3){
+//      console.log(i);
+//     }
+//    }add();
+
+
+// task2:find the multiples of 3 without using if condition using while loop
+//   function add(){
+//    var a=3;
+//     while(a<=30){
+//         alert(a);
+//         a+=3;
+//     }
+//     }add();
+
+
+// task2:find the multiples of 3 without using if condition using do while loop
+//    function add(){
+//    var a=3;
+//     do{
+//         alert(a);
+//         a+=3;
+//     }while(a<=30);
+//    }add();
+
+
+
+
+
+
+// task3:print last index character of a string using for loop
+    // function add(){
+    // b="archana";
+    // for(a=b.length-1; a>=b.length-1 ; a--){
+    // alert(b[a]);
+    // }
+    // }add();
+
+
+
+    // task3:print last index character of a string using while loop
+    // function add(){
+    // b="archana";
+    //  var a=b.length-1;
+    //  while(a>=b.length-1)
+    //  {
+    //     alert(b[a]);
+    //     a--;
+    //  }
+    // }add();
+
+
+// task3:print last index character of a string using do while loop
+//    function add(){
+//     b="archana";
+//     var a=b.length-1;
+//     do{
+//     alert(b[a]);
+//     a--;
+//     }
+//     while(a>=b.length-1)
+// }add();
+
+
+
+// Task4-Print range of numbers between 5-8 using && operator and use ternary operator  using for loop
+    
+//  ------->using ternary operator
+//    function add(){
+//     for(a=5;a<=8;a++)
+//     {
+//      a>=5 && a<=8? alert(a): alert("not in b/w");   
+//     }
+// }add();
+
+// ..............>using && operator
+//     function add(){
+//     for(a=0;a<=8;a++)
+//     {
+//     if(a>=5 && a<=8){
+//         alert(a);
+//     }
+//     }
+// }add();
+
+
+
+// Task4-Print range of numbers between 5-8 using && operator and use ternary operator  using while loop
+// ---------->using ternary operator
+// function add(){
+// var a=5;
+// while(a<=8){
+// a>=5 && a<=8 ?alert(a):alert("not a");
+// a++;
+// }
+// }add();
+// ----------->using && operation
+// function add(){
+// var a=5;
+// while(a<=8){
+//     if(a>=5 && a<=8){
+//         alert(a);
+//     }
+//     a++;
+// }}add();
+
+
+//Task4-Print range of numbers between 5-8 using && operator and use ternary operator  using  do while loop
+// ---------->using ternary operator
+// function add(){
+// var a=5;
+// do{
+//   a>=5 && a<=8 ?alert(a):alert("not a");
+//     a++;
+// }while(a<=8)
+// }add();
+// ------->using && operation
+// function add(){
+// var a=5;
+// do{
+//     if(a>=5&&a<=8){
+//         alert(a);
+//     }
+//     a++;
+// }while(a<=8)
+// }add();
+
+
+
+// task5-Print reverse of Numbers and strings  using for loop
+// ----->rev of numbers
+// function add(){
+// for(i=6;i>0;i--){
+// console.log(i);
+// }
+// }add();
+
+//------>rev of 
+// function add(){
+// var b="archana";
+// for(a=b.length-1;a>=0;a--){
+//     alert(b[a]);
+// }
+// }add();
+
+
+// task5-Print reverse of Numbers and strings  using while loop
+// -------->rev of numbers 
+// function add(){
+// var a=10;
+// while(a>=0){
+//     alert(a);
+//     a--;
+// }
+// }add();
+
+// ---------->rev of string
+// function add(){
+// var a="archana";
+// var b=a.length-1;
+// while(b>0){
+//     alert(a[b]);
+//     b--;
+// }
+// }add();
+
+
+
+
+// task5-Print reverse of Numbers and strings  using do while loop
+// rev of numbers
+// function add(){
+// var a=10;
+// do{
+// alert(a);
+// a--;
+// }while(a>=0)
+// }add();
+
+// rev of string
+// function add(){
+// var a="archana";
+// var b=a.length-1;
+// do{
+//     alert(a[b]);
+//     b--;
+// }while(b>=0)
+// }add();
+
+
+
+
+
+// Task6:Find length of input without using predefined method (Length)  using for loop
+// function add(){
+// a="archana";
+// for(i=0; a[i]!==undefined; i++){
+// }
+//  alert(i);
+// }add();
+
+// Task6:Find length of input without using predefined method (Length)  using while loop
+// function add(){
+//  a="archana";
+// var i=0;
+// while(a[i]!==undefined){ 
+//     i++;
+// }
+// alert(i);
+// }add();
+
+
+// Task6:Find length of input without using predefined method (Length)  using do while loop
+// function add(){
+// a="archana";
+// var i=0;
+// do{
+//     i++;
+// }while(a[i]!==undefined)
+// alert(i);
+// }add();
+
+
+// task2:print characters in a string
+// function str(){
+//     a="archana";
+//     for(i=0;i<=6;i+=1){
+//         return console.log(a[i]);
+//     }
+   
+// }str();
+
+
+
+// task3:find the length of the string
+// function add(){
+//  a="archana";
+//  return alert(a.length-1);
+// }add();
+
+
+
+// task4:find the even index values in a string
+//  function add(){
+//     a="archana";
+//     for(b=0;b<=6;b++){
+//         if(b%2==0){
+//            alert(a[b]);
+//         }
+//     }
+//  }add();
+
+
+// task5:print the numbers greater than 5
+//  function num(){
+//     a=10;
+//     for(i=0;i<=a;i++){
+//        if(i>5){
+//         alert(i);
+//     }
+// }
+//  }num();
+
+
+
+// task6:only print 5,6,7
+// function num(){
+//     for(var a=0;a<=10;a=a+1)
+//     {
+//       if(a==5||a==6||a==7){
+//         console.log(a);
+//       }
+//     }
+//  }num();
+
+
+
+// task7:string has to print in reverse
+//  function str(){
+// a="archana";
+// for(i=a.length-1;i>=0;i--){
+//     alert(a[i]);
+// }
+//  }str();
+
+    </script>
+</body>
+</html>
